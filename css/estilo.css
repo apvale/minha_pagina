@@ -1,4 +1,95 @@
+
+
 body{
-    background-image: url("imagens/fundo.png");
-    background-repeat: round;
+    /*background-image: url("/imagens/fundo.png");*/
+    background-color: rgb(35, 113, 193);
+    color: white;
+    display: block;
+    margin: 0;
+    font-family: Verdana;
 }
+
+#cabecalho{
+    width: 1024px;
+    display: table;    
+    margin: 0 auto;
+}
+
+#menu{
+    display: table;
+    float: left;
+}
+
+article{
+    width: 1024px;
+    height: 500px;
+    display: table;
+    float: right;
+}
+
+ul{
+    list-style: none;
+  
+}
+
+li{
+    display: table;
+    float: left;
+}
+
+article li:nth-child(3n+1){
+    clear: left;
+}
+
+
+.site{
+    width: 250px;   
+    margin: 15px;
+    border-radius: 30px;
+}
+
+#rodape{
+    width: 100%;
+    display: table;
+    background-color: white;
+    clear: both;
+    
+   
+}
+
+.redesocial{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    float: right;
+}
+
+.redessociais{
+    display: table;
+}
+
+.footer_container{
+    width: 768px;
+    display: table;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 163px;
+    float: right;
+}
+
+small{
+    float: right;
+    clear: both;
+    color: rgb(35, 113, 193);
+    font-size: 14px;
+    margin: 30px;
+    margin-right: 161px;
+}
+
